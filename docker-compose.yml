@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  binanceapi:
+    image: ${DOCKER_REGISTRY-}binanceapi
+    build:
+      context: .
+      dockerfile: Binance api/Dockerfile

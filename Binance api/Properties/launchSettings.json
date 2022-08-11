@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Binance api": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

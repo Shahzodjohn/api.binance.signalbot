@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Binance api", "Binance api\Binance api.csproj", "{7744440D-F6C1-46C8-9165-49D07693FB9A}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C9B63168-02A5-4E00-8AED-FDD53C6DDAA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7744440D-F6C1-46C8-9165-49D07693FB9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7744440D-F6C1-46C8-9165-49D07693FB9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7744440D-F6C1-46C8-9165-49D07693FB9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7744440D-F6C1-46C8-9165-49D07693FB9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B63168-02A5-4E00-8AED-FDD53C6DDAA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B63168-02A5-4E00-8AED-FDD53C6DDAA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B63168-02A5-4E00-8AED-FDD53C6DDAA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B63168-02A5-4E00-8AED-FDD53C6DDAA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC7C0E9C-E929-46E0-B9D6-B269592D3A51}
+	EndGlobalSection
+EndGlobal

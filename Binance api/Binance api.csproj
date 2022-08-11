@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Binance_api</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Binance.API.Csharp.Client" Version="1.4.0" />
+    <PackageReference Include="Binance.Client.Websocket" Version="2.1.10" />
+    <PackageReference Include="Binance.Net" Version="8.1.7" />
+    <PackageReference Include="CryptoExchange.Net" Version="5.2.4" />
+    <PackageReference Include="Websocket.Client" Version="4.4.43" />
+  </ItemGroup>
+
+</Project>
