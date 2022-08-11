@@ -4,7 +4,7 @@ using CryptoExchange.Net.Authentication;
 
 BinanceClient.SetDefaultOptions(new BinanceClientOptions()
 {
-    ApiCredentials = new ApiCredentials("QRrYQpHMTqN2WYpp35YJyL1YtMA2zwbTZDmXzxnyZdegcNWzQEe7pltTCtKZE0NY", "3XzbUjG2DirgLnUA7JzWzen5A4T2voprkjgWGW9LpsM0lgFg2jAdSEYZqozhHS3p"),
+    ApiCredentials = new ApiCredentials("public_key", "private_key"),
 });
 
 using (var binanceclient = new BinanceClient())
